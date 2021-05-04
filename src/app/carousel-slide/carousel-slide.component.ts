@@ -1,5 +1,4 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {NgClass} from "@angular/common";
 
 @Component({
   selector: 'app-carousel-slide',

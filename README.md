@@ -1,27 +1,26 @@
-# Wayfarer
+# Wayfarer Travel Community Angular App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
-## Development server
+## Usage
+ * Clone and download this repository
+ * Run `ng serve` in the terminal
+ * Navigate to `http://localhost:4200/` in the browser
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Screenshots
 
-## Code scaffolding
+![homepage](./src/assets/images/screenshots/homepage_790x444.jpg)
+![cities page](./src/assets/images/screenshots/placeholder_790x444.jpg)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Responsive Design
 
-## Build
+![desktop layout](./src/assets/images/screenshots/desktop.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![ipad landscape layout](./src/assets/images/screenshots/ipad_landscape.jpg)
 
-## Running unit tests
+![ipad portrait layout](./src/assets/images/screenshots/ipad_portrait.jpg)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![iphoneX menu open layout](./src/assets/images/screenshots/iphone12_menu_open.jpg)
+![iphoneX layout](./src/assets/images/screenshots/iphone12.jpg)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
