@@ -1,6 +1,6 @@
 .cities-column {
   padding-top: 15px;
-  border: 1px solid #1c60b0;
+  border: 2px solid #1c60b0;
   justify-content: center;
   display: flex;
   height: inherit;
@@ -17,7 +17,7 @@
 
 .post-column {
   padding-top: 15px;
-  border: 1px solid #1c60b0;
+  border: 2px solid #1c60b0;
   justify-content: center;
   display: flex;
   height: inherit;

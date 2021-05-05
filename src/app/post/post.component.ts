@@ -18,13 +18,22 @@ export class PostComponent implements OnInit {
           return city.id === parseInt(params.get('id'), 10);
         });
         this.dateFormatter();
+        this.sortPostsByDate();
       });
   }
+
 
   dateFormatter(): void {
     this.city.posts = this.city.posts.map(post => {
         post.date = new Date(post.date);
         return post;
     });
+  }
+
+  sortPostsByDate(): void {
+    this.city.posts = this.city.posts.sort((a, b) => {
+      return b.date.getTime() - a.date.getTime();
+    });
+    console.log(this.city.posts);
   }
 }
