@@ -8,7 +8,6 @@ import {Component, Input, OnInit} from '@angular/core';
 export class CarouselSlideComponent implements OnInit {
 
   @Input() imgSrc: string;
-  @Input() caption: string;
 
   constructor() { }
 

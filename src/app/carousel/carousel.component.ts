@@ -7,32 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CarouselComponent implements OnInit {
 
-  allSlidesInfo: SlideInfo[];
+  slideImageUrls: string[];
 
   constructor() {
     // To keep slides consistent, image resolution should be 1920px x 600px
-    this.allSlidesInfo = [
-      {
-        imgSrc: "/assets/images/banner-image_1920x600.jpg",
-        caption: "travel + community = wayfarer"
-      },
-      {
-        imgSrc: "/assets/images/woman-airport_1920x600.jpg",
-        caption: "travel + community = wayfarer"
-      },
-      {
-        imgSrc: "/assets/images/people-on-mountain_1920x600.jpg",
-        caption: "travel + community = wayfarer"
-      },
-    ]
+    this.slideImageUrls = [
+      '/assets/images/banner-image_1920x600.jpg',
+      '/assets/images/woman-airport_1920x600.jpg',
+      '/assets/images/people-on-mountain_1920x600.jpg',
+    ];
   }
 
   ngOnInit(): void {
   }
 
-}
-
-export interface SlideInfo {
-  imgSrc: string,
-  caption: string,
 }
