@@ -6,6 +6,7 @@ display: flex;
 }
 .post-image-top{
   padding-left: 400px;
+
 }
 .post-image{
   height: 200px;
@@ -16,18 +17,41 @@ display: flex;
 .post-main{
   display: flex;
   flex-direction: column;
-  padding: 20px;
+margin-left: 30px;
+
+  background-color: #FFFFFF;
+
+
 }
 .post-top{
   display: flex;
   flex-direction: row;
+  padding-left: 15px;
 
 }
 .post-bottom{
   display: flex;
 flex-direction: column;
   border-radius: 40px;
-  padding: 40px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
 
 }
-.post{}
+
+
+h1{
+  font-weight: bold;
+  color: #1c60b0;
+}
+h2{
+  font-weight: bold;
+  color: #1c60b0;
+}
+h3{
+  font-weight: bold;
+  color: #1c60b0;
+}
+p{
+  color: #1c60b0;
+}

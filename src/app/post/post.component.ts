@@ -17,8 +17,14 @@ export class PostComponent implements OnInit {
         this.city = cityData.find(city => {
           return city.id === parseInt(params.get('id'), 10);
         });
+        this.dateFormatter();
       });
-    console.log(this.city);
   }
 
+  dateFormatter(): void {
+    this.city.posts = this.city.posts.map(post => {
+        post.date = new Date(post.date);
+        return post;
+    });
+  }
 }

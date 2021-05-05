@@ -1,13 +1,14 @@
 .cities-column {
   padding-top: 15px;
-  border: 1px solid black;
+  border: 1px solid #1c60b0;
   justify-content: center;
   display: flex;
-  height: fit-content;
-  width: fit-content;
-  background-color: lightgray;
+  height: inherit;
+  width: inherit;
+  background-color: #FFFFFF;
   padding-right: 30px;
   color: #1c60b0;
+  border-radius: 40px;
 
 }
 .city-title{
@@ -16,19 +17,22 @@
 
 .post-column {
   padding-top: 15px;
-  border: 1px solid black;
+  border: 1px solid #1c60b0;
   justify-content: center;
   display: flex;
-  height: fit-content;
-  width: fit-content;
-  background-color: lightgray;
+  height: inherit;
+  width: inherit;
+  background-color: #FFFFFF;
   padding-right: 30px;
   color: #1c60b0;
+  border-radius: 40px;
+  padding-left: 15px;
 }
 
 .city-page {
   display: flex;
   flex-direction: row;
+
 }
 
 img {
@@ -40,7 +44,7 @@ img {
 .city {
   border-radius: 40px;
   display: flex;
-  border: 1px solid black;
+  border: 1px solid #1c60b0;
   padding: 25px;
   height: 200px;
   width: 500px;
@@ -58,3 +62,4 @@ img {
   margin-left: 3rem;
   letter-spacing: 3px;
 }
+

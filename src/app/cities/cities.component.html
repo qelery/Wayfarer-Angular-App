@@ -1,11 +1,10 @@
 <app-top-banner></app-top-banner>
 <section class="city-page">
   <section class="cities-column">
-
     <ul>
       <h1 class="city-title">Cities</h1>
-      <li (click)="showCityPost(i)" class="city" *ngFor="let city of citiesInfo; index as i">
-        <img src="{{city.pictureUrl}}">
+      <li routerLink="{{city.id}}" class="city" *ngFor="let city of citiesInfo">
+        <img src="{{city.pictureUrl}}" alt="">
         <span class="city-name">{{city.name}}</span>
       </li>
     </ul>
