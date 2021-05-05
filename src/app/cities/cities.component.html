@@ -4,14 +4,14 @@
 
     <ul>
       <h1 class="city-title">Cities</h1>
-      <li class="city" *ngFor="let city of citiesInfo">
+      <li (click)="showCityPost(i)" class="city" *ngFor="let city of citiesInfo; index as i">
         <img src="{{city.pictureUrl}}">
         <span class="city-name">{{city.name}}</span>
       </li>
     </ul>
   </section>
   <section class="post-column">
-    <p>Test text</p>
+    <p>{{clickedCity.name}}</p>
     <p>Test text</p>
     <p>Test text</p>
     <section class="posts">

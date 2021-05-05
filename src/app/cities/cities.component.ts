@@ -8,10 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class CitiesComponent implements OnInit {
 
   citiesInfo: any;
+  clickedCity: any;
 
   constructor() {
     this.citiesInfo = [
         {
+          id: 1,
         name: 'London',
         pictureUrl: 'https://www.kimptonhotels.com/blog/wp-content/uploads/2018/09/JL_201410_Visit_London_1780-Edit-Credit-London-Partnersresized.jpg',
           posts: [
@@ -28,6 +30,7 @@ export class CitiesComponent implements OnInit {
         ],
       },
       {
+        id: 2,
         name: 'Paris',
         pictureUrl: 'https://live.staticflickr.com/1185/1047043772_cb85c10ec9_b.jpg',
         posts: [
@@ -44,6 +47,7 @@ export class CitiesComponent implements OnInit {
         ],
       },
       {
+        id: 3,
         name: 'Chicago',
         pictureUrl: 'https://media.timeout.com/images/105658075/image.jpg',
         posts: [
@@ -59,6 +63,7 @@ export class CitiesComponent implements OnInit {
         ],
       },
       {
+        id: 4,
         name: 'Sydney',
         pictureUrl: 'https://www.cunard.com/content/dam/cunard/inventory-assets/ports/SYD/yqy.jpg.1538745208398.image.750.563.low.jpg',
         posts: [
@@ -74,9 +79,13 @@ export class CitiesComponent implements OnInit {
         ],
       }
     ];
+    this.clickedCity = this.citiesInfo[0];
   }
 
   ngOnInit(): void {
   }
 
+  showCityPost(id: number): void {
+    this.clickedCity = this.citiesInfo[id];
+  }
 }
