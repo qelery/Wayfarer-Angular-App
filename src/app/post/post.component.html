@@ -1,6 +1,26 @@
-<section class="post-title"> <h1>{{city.name}}</h1>
-<h2>{{city.country}}</h2>
-</section>
-<section class="post-image">
-<img src="{{city.pictureUrl}}" alt="">
+
+<section class="post-main">
+  <section class="post-top">
+   <section class="post-title">
+    <h1>{{city.name}}</h1>
+    <h2>{{city.country}}</h2>
+    </section>
+    <section class="post-image-top">
+    <img src="{{city.pictureUrl}}" alt="">
+    </section>
+  </section>
+  <section class="post-bottom">
+    <h2>Posts</h2>
+    <div *ngFor="let post of city.posts">
+      <article class="post">
+        <div class="post-image">
+          <img src="{{post.pictureUrl}}" alt="">
+        </div>
+        <div class="post-body">
+          <h3>{{post.title}}</h3>
+          <p>{{post.body}}</p>
+        </div>
+      </article>
+    </div>
+  </section>
 </section>

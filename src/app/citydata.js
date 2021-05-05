@@ -7,12 +7,12 @@ export const cityData = [
     posts: [
       {
         title: 'London Bridge is falling down',
-        body: 'body of post 1',
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         pictureUrl: 'https://shelfaware.files.wordpress.com/2015/06/london_bridge_is_falling_down_by_zkojek-d48ozpc.jpg',
       },
       {
-        title: 'London 2',
-        body: 'body of london post 2',
+        title: 'London Sample Title 2',
+        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         pictureUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4V1CVhUGpjAV223aKLRwl9AcuyleNb6n8Vw&usqp=CAU',
       },
     ],
@@ -25,7 +25,7 @@ export const cityData = [
     posts: [
       {
         title: 'Paris is looking like a Second New York',
-        body: 'body of post 1',
+        body: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
         pictureUrl: 'https://i1.wp.com/nypost.com/wp-content/uploads/sites/2/2021/04/paris-trash-hp.jpg?quality=80&strip=all&ssl=1',
       },
       {
@@ -43,11 +43,11 @@ export const cityData = [
     posts: [
       {
         title: 'Great Chicago Fire',
-        body: 'body of post 1',
+        body: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
         pictureUrl: 'https://media.nationalgeographic.org/assets/photos/000/277/27713.jpg'          },
       {
         title: 'Best place to eat in Chicago',
-        body: 'body of post 2',
+        body: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
         pictureUrl: 'https://www.chicagotribune.com/resizer/6-XH3-AeNZIS_HXEiKkCEybbH28=/800x532/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/BPMZMYJZ5BFX3NUDC36IVHS7NI.jpg'
       },
     ],
