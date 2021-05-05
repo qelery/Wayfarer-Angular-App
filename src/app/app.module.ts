@@ -8,6 +8,8 @@ import {SlideshowModule} from 'ng-simple-slideshow';
 import { TopicsComponent } from './topics/topics.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselSlideComponent } from './carousel-slide/carousel-slide.component';
+import { CitiesComponent } from './cities/cities.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { CarouselSlideComponent } from './carousel-slide/carousel-slide.componen
     NavbarComponent,
     TopicsComponent,
     CarouselComponent,
-    CarouselSlideComponent
+    CarouselSlideComponent,
+    CitiesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
