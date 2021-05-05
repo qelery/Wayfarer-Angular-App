@@ -1,2 +1,24 @@
 <app-top-banner></app-top-banner>
-<p>cities works!</p>
+<section class="city-page">
+  <section class="cities-column">
+    <ul>
+      <li *ngFor="let city of citiesInfo">
+        {{city.name}}
+        <img src="{{city.pictureUrl}}">
+      </li>
+    </ul>
+  </section>
+  <section class="post-column">
+    <p>Test text</p>
+    <p>Test text</p>
+    <p>Test text</p>
+    <section class="posts">
+      <div class="post1">
+        Test post
+      </div>
+      <div class="post2">
+        Test post
+      </div>
+    </section>
+  </section>
+</section>

@@ -1,0 +1,14 @@
+.cities-column{
+border: 1px solid black;
+justify-content: center;
+  display: flex;
+  height: fit-content;
+width: fit-content;
+}
+.post-column{
+  border: 1px solid black;
+}
+.city-page{
+  display: flex;
+flex-direction: row;
+}

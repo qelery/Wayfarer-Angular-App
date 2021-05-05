@@ -19,7 +19,7 @@ import { HomeComponent } from './home/home.component';
     CarouselComponent,
     CarouselSlideComponent,
     CitiesComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
