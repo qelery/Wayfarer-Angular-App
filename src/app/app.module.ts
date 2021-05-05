@@ -10,6 +10,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselSlideComponent } from './carousel-slide/carousel-slide.component';
 import { CitiesComponent } from './cities/cities.component';
 import { HomeComponent } from './home/home.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HomeComponent } from './home/home.component';
     CarouselSlideComponent,
     CitiesComponent,
     HomeComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

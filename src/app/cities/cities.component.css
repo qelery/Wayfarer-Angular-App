@@ -15,7 +15,15 @@
 }
 
 .post-column {
+  padding-top: 15px;
   border: 1px solid black;
+  justify-content: center;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  background-color: lightgray;
+  padding-right: 30px;
+  color: #1c60b0;
 }
 
 .city-page {
