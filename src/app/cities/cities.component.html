@@ -1,10 +1,12 @@
 <app-top-banner></app-top-banner>
 <section class="city-page">
   <section class="cities-column">
+
     <ul>
-      <li *ngFor="let city of citiesInfo">
-        {{city.name}}
+      <h1 class="city-title">Cities</h1>
+      <li class="city" *ngFor="let city of citiesInfo">
         <img src="{{city.pictureUrl}}">
+        <span class="city-name">{{city.name}}</span>
       </li>
     </ul>
   </section>

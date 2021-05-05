@@ -1,14 +1,52 @@
-.cities-column{
-border: 1px solid black;
-justify-content: center;
+.cities-column {
+  padding-top: 15px;
+  border: 1px solid black;
+  justify-content: center;
   display: flex;
   height: fit-content;
-width: fit-content;
+  width: fit-content;
+  background-color: lightgray;
+  padding-right: 30px;
+  color: #1c60b0;
+
 }
-.post-column{
+.city-title{
+  font-weight: bold;
+}
+
+.post-column {
   border: 1px solid black;
 }
-.city-page{
+
+.city-page {
   display: flex;
-flex-direction: row;
+  flex-direction: row;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+}
+
+.city {
+  border-radius: 40px;
+  display: flex;
+  border: 1px solid black;
+  padding: 25px;
+  height: 200px;
+  width: 500px;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: #1c60b0;
+}
+
+.city-name {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+  font-family: 'Raleway', serif;
+  margin-left: 3rem;
+  letter-spacing: 3px;
 }
