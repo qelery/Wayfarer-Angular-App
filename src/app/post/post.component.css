@@ -1,5 +1,5 @@
 .post-image-top img{
-height: 250px;
+height: available;
   width: 300px;
 display: flex;
   border: 1px solid #1c60b0 ;
@@ -7,9 +7,8 @@ display: flex;
 .post-image-top{
 margin-left: auto;
   border: #1c60b0 solid 1px;
-
-
 }
+
 .post-image img{
   height: 200px;
   width: 300px;
