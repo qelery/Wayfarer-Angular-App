@@ -53,7 +53,7 @@ export const cityData = [
       {
         title: 'Best place to eat in Chicago',
         date: '2021-06-29T11:20:53',
-        body: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.',
+        body: '💣︎♋︎⧫︎⧫︎♒︎♏︎⬥︎ 😐︎♏︎♋︎■︎♏︎📪︎ ⧫︎♒︎♓︎⬧︎ ♓︎⬧︎ ♐︎□︎❒︎ ⍓︎□︎◆︎✏︎ ✋︎♐︎ ⍓︎□︎◆︎ ⧫︎❒︎♋︎■︎⬧︎●︎♋︎⧫︎♏︎ ⧫︎♒︎♓︎⬧︎ ♌︎♋︎♍︎🙵 ⧫︎♒︎♏︎■︎ ⍓︎□︎◆︎ ❒︎♏︎♋︎●︎●︎⍓︎ ◆︎⬧︎♏︎♎︎ ⧫︎♓︎❍︎♏︎ ♐︎□︎❒︎ 🕈︎♓︎■︎♑︎ 👎︎♓︎■︎♑︎⬧︎',
         pictureUrl: 'https://www.chicagotribune.com/resizer/6-XH3-AeNZIS_HXEiKkCEybbH28=/800x532/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/BPMZMYJZ5BFX3NUDC36IVHS7NI.jpg'
       },
     ],

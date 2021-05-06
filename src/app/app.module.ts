@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import {SearchService} from './search/search.service';
+import {WeatherService} from './weather/weather.service';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TopicsComponent } from './topics/topics.component';
@@ -13,7 +13,6 @@ import { CitiesComponent } from './cities/cities.component';
 import { HomeComponent } from './home/home.component';
 import { PostComponent } from './post/post.component';
 import { WeatherComponent } from './weather/weather.component';
-import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
@@ -27,7 +26,6 @@ import { SearchComponent } from './search/search.component';
     HomeComponent,
     PostComponent,
     WeatherComponent,
-    SearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +33,7 @@ import { SearchComponent } from './search/search.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [SearchService],
+  providers: [WeatherService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
