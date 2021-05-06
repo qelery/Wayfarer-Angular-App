@@ -9,11 +9,7 @@
       <img src="{{city.pictureUrl}}" alt="">
     </section>
   </section>
-  <section *ngIf="weather">
-    <h3>Weather</h3>
-    <p>Currently {{weather.weather[0].description}}.</p>
-    <p>There's a high of {{weather.main.temp_max}} degrees and a low of {{weather.main.temp_min}} degrees.</p>
-  </section>
+  <app-weather cityName="{{city.name}}"></app-weather>
   <section class="post-bottom">
     <h2>Posts</h2>
     <div *ngFor="let post of city.posts">

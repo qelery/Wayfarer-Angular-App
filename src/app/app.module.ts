@@ -11,6 +11,7 @@ import { CarouselSlideComponent } from './carousel-slide/carousel-slide.componen
 import { CitiesComponent } from './cities/cities.component';
 import { HomeComponent } from './home/home.component';
 import { PostComponent } from './post/post.component';
+import { WeatherComponent } from './weather/weather.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { PostComponent } from './post/post.component';
     CitiesComponent,
     HomeComponent,
     PostComponent,
+    WeatherComponent,
   ],
   imports: [
     BrowserModule,
