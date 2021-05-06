@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { cityData } from '../citydata';
-import {debounceTime, distinctUntilChanged} from 'rxjs/operators';
-import {Subject} from 'rxjs';
-import { WeatherService} from '../weather/weather.service';
+import { distinctUntilChanged } from 'rxjs/operators';
+import { Observable, Subject } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-post',
@@ -14,7 +14,7 @@ export class PostComponent implements OnInit {
   city: any;
   searchSubject = new Subject();
   weather: any;
-  constructor(private route: ActivatedRoute, private weatherService: WeatherService) { }
+  constructor(private route: ActivatedRoute, private http: HttpClient) { }
 
   ngOnInit(): void {
     this.route.paramMap
@@ -29,7 +29,7 @@ export class PostComponent implements OnInit {
     this.searchSubject
       .pipe(distinctUntilChanged())
       .subscribe(city => {
-        this.weatherService.createAPIObservable(city)
+        this.createAPIObservable(city)
           .subscribe(response => {
             this.weather = response;
           });
@@ -39,6 +39,11 @@ export class PostComponent implements OnInit {
 
   findWeather(cityName: string): void {
     this.searchSubject.next(cityName);
+  }
+
+  createAPIObservable(city): Observable<object> {
+    return this.http
+      .get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=052f26926ae9784c2d677ca7bc5dec98&&units=imperial`);
   }
 
   dateFormatter(): void {
