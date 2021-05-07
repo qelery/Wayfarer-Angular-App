@@ -1,6 +1,6 @@
 # Wayfarer Travel Community Angular App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+A demo travel community website built in Angular 11.
 
 ## Usage
  * Clone and download this repository
@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Screenshots
 
 ![homepage](./src/assets/images/screenshots/homepage_790x444.jpg)
-![cities page](./src/assets/images/screenshots/placeholder_790x444.jpg)
+![cities page](./src/assets/images/screenshots/citiespage_790x444.jpg)
 
 ### Responsive Design
 
