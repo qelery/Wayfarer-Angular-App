@@ -24,7 +24,7 @@ export class WeatherComponent implements OnInit, OnChanges {
 
   findWeather(cityName: string): void {
     this.http
-      .get(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=052f26926ae9784c2d677ca7bc5dec98&&units=imperial`)
+      .get(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=052f26926ae9784c2d677ca7bc5dec98&&units=imperial`)
       .subscribe(response => this.weather = response);
   }
 }
