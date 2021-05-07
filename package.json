@@ -1,13 +1,18 @@
 {
   "name": "wayfarer",
   "version": "0.0.0",
+  "engines": {
+    "node": "15.9.0",
+    "npm": "7.6.3"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "heroku-postbuild": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -22,11 +27,14 @@
     "@angular/router": "~11.2.11",
     "@ng-bootstrap/ng-bootstrap": "^9.1.0",
     "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
     "jquery": "^3.6.0",
     "ng-simple-slideshow": "^1.2.9",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "slick-carousel": "^1.8.1",
     "tslib": "^2.0.0",
+    "typescript": "~4.1.5",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
@@ -36,6 +44,7 @@
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.1.0",
