@@ -1,6 +1,7 @@
 # Wayfarer Travel Community Angular App
 
-A demo travel community website built in Angular 11.
+A demo travel community website built in Angular 11.<br>
+A live demo of the website is hosted on Heroku here: https://wayfarer-angular.herokuapp.com/
 
 ## Usage
  * Clone and download this repository
